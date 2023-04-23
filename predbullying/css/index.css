@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.bodyy{
+    background-color: rgb(54, 54, 166);
+}
+
+.head-log{
+    background-color: rgb(54, 54, 166);
+    margin: 15px;
+    padding: 5px;
+}
+
+.head{
+    background-color: rgb(54, 54, 166);
+}
+
+.container-full-index{
+    margin-top: 20px;
+}
+
+.container-full{
+    margin-top: 0;
+}
+
+.col-xl-6{
+    margin-left: 80px;
+    margin-top: 0;
+}
+.head-log span{
+    font-size: 35px;
+    color: white;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+.col-xl-6 .side-log span{
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    font-weight: bolder;
+}
+.col-xl-6 .side-pic{
+    margin-left: 55px;
+}

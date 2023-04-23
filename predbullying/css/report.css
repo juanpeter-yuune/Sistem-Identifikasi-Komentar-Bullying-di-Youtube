@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card .card-body{
+    width: 25vw;
+    height: vh;
+    margin: 0;
+    background: white;
+    box-shadow: 0.6em 0.6em 1.2em rgb(189, 201, 234);
+    border-radius: 20px;
+}
+
+.card .card-body .card-text img{
+    display: block; 
+    max-width: 100%; 
+    height: auto;
+}
+
+.card .card-body h5{
+    text-align: center;
+}
+
+.card .card-body img{
+    text-align: center;
+}
+
+.card .card-button{
+    width: 25vw;
+    height: vh;
+    margin-top: 50px;
+    background: white;
+    box-shadow: 0.6em 0.6em 1.2em rgb(56, 100, 220);
+    border-radius: 20px;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    background-color: #002c92;
+    outline-color: black;
+}
+
+.table .table-head{
+    background-color: rgb(26, 26, 172);
+    color: rgb(236, 236, 236);
+}
+

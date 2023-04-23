@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main-content .big-card .about{
+    width: 95%;
+    height: 85%;
+    padding: 15px 25px;
+    margin: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0.6em 0.6em 1.2em rgb(56, 100, 220);
+    border-radius: 20px;
+    display: flex;
+}
+
+/* .main-content  .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;   
+} */
+
+
+.about .card .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.big-card .about .card{
+    width: 55vw;
+    height: 75vh;
+    padding: 15px 25px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0.6em 0.6em 1.2em rgb(194, 205, 235);
+    border-radius: 20px;
+    margin-top: 0;
+}
+
+.about .card .content .imgBox{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.about .card .content .imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .card .content .contentBox h4{
+    color: #111827;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.about .card .content .contentBox h5{
+    color: rgb(66, 66, 66);
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about .card .content .sci{
+    margin-top: 20px;
+}
+
+.about .card .content .sci a{
+    text-decoration: none;
+    color: rgb(3, 16, 28);
+    font-size: 20px;
+    margin: 10px;
+    transition: color 0.5s;
+}
+
+.about .card .content .sci a:hover{
+    color: blue;
+}
+
+.class-body{
+    margin: 20px;
+}

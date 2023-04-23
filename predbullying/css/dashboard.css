@@ -1,0 +1,69 @@
+.home-content{
+    position: relative;
+    padding-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.home-content .overview-boxes{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.home-content .overview-boxes .box{
+    padding: 15px 14px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    width: calc(100%/3 - 15px);
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0.6em 0.6em 1.2em rgb(168, 184, 228);
+}
+
+.home-content .overview-boxes .box-topic{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-content .overview-boxes .number{
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.home-content .overview-boxes .box img{
+    margin-left: 20px;
+}
+
+.model{
+    position: relative;
+    padding-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.model .model-box{
+    width: 75vw;
+    height: vh;
+    margin: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: 0.6em 0.6em 1.2em rgb(214, 220, 234);
+    border-radius: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.model .model-box .judul{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 10px;
+}
+
+.table .table-head{
+    background-color: rgb(26, 26, 172);
+    color: rgb(255, 255, 255);
+}
